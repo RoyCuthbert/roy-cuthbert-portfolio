@@ -1,0 +1,27 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* CSS Variables */
+:root{
+    --heading-font:'Cormorant-Garamond', sans-serif;
+    --primary-font:'Lato', cursive;
+    --primary-color:#aa9581; 
+    --secondary-color:#416a8e;
+    --third-color:#7a9fc2;
+    --fourth-color:#3a2620;
+}
+
+/* Global styles */
+ body{
+    font-family: var(--primary-font);
+  }
+
+ h1{
+    font-family:'Playfair-Display';,san-serif;
+ }
+
+ h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+ }
