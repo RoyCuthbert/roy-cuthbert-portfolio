@@ -53,15 +53,6 @@ The User Experience (UX) is to provide a simple but structured layout to a portf
 ### Design Choices
 
 ### Wireframes
-A wireframe is a basic, blueprint-like visual guide for a website that shows its structure, layout, and the placement of content and features without using detailed visual elements like color or images
-#### Mobile
-<img width="191" height="338" alt="image" src="https://github.com/user-attachments/assets/06cc4034-9d94-4c12-b2e2-ce94471f6133" />
-
-#### Tablet
-<img width="179" height="176" alt="image" src="https://github.com/user-attachments/assets/1fa23865-5088-4e7c-9b68-42db8a449808" />
-
-#### Laptop / Desktop
-<img width="476" height="164" alt="image" src="https://github.com/user-attachments/assets/387d1788-1e06-403c-82f7-9915b5643efc" />
 
 ## Features
 
@@ -110,3 +101,4 @@ Found that When using the navigation and getting it to be responsive that needed
 ### Acknowledgements
 
 Definiing wireframes used on google .com <img width="418" height="269" alt="image" src="https://github.com/user-attachments/assets/63984b95-69a6-4407-ba9f-b7d68cacd5df" />
+
