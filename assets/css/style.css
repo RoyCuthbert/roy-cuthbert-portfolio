@@ -26,6 +26,17 @@
     font-family: var(--heading-font);
  }
 
- .form{
-   justify-items: center;
- }
+ /* Default (Desktop) */
+textarea {
+    width: 60%;
+    height: 200px;
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    textarea {
+        width: 95%; /* Wider on small screens */
+        height: 150px; /* Adjust height */
+        padding: 10px;
+    }
+}
