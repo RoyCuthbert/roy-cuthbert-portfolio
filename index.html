@@ -96,8 +96,35 @@
                 <h3>Contact Me</h3>                
                 <p><em>Please feel free to contact me</em> i'm happy that you took your time to look through my <strong>portfolio</strong>
                 if you could find the time to look through my links below if anything of interest </br><strong>please email me or write a message below</strong></p>
-            </div>
-            <div class="row">
+                </div>
+            <div class="row text-center">
+            <form action="" method="POST">
+			<label for="name-field">Name</label>
+			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+			<label for="email-field">Email</label>
+			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+			<label for="page-interest">What brings you to my page?</label>
+			<input id="page-interest" list="interest" name="page-interest">
+			<datalist id="interest">
+				<option value="Recruiter">
+				<option value="Colleague">
+				<option value="Educator">
+				<option value="Browser">
+			</datalist>	
+		<div>
+			<label for="feedback">Please let me know if interested in anything you seen below</label>
+			<br>
+			<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+		</div>
+
+	  <!-- Adding form buttons here -->
+        <button type ="submit"><strong>Send!</strong></button>
+        <input type ="reset" value ="Reset form">
+
+
+	</form>
+            <div class="row my-4">
+                <!-- Justifying content here with a d-flex gave me the right amount of spacing on all sizes -->
                 <div class="col-4 d-flex justify-content-center"><a href=""><i class="fa-brands fa-square-linkedin"></i></a></div>
                 <div class="col-4 d-flex justify-content-center"><a href=""><i class="fa-brands fa-github"></i></a></div>
                 <div class="col-4 d-flex justify-content-center"><a href=""><i class="fa-solid fa-at"></i></a></div>
