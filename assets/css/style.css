@@ -26,6 +26,20 @@
     font-family: var(--heading-font);
  }
 
+ .card{
+    min-height: 90vh;
+    padding: 10px;
+    font-size: 18px;
+ }
+
+#running{
+    text-align: left;
+}
+
+#boardwalk{
+    text-align: right;
+}
+
 
  /* Default (Desktop) */
 textarea {
