@@ -30,6 +30,7 @@
     width:100%;
 }
 
+/* Heading */
  h1{
     font-family:'Playfair-Display',san-serif;
  }
@@ -66,6 +67,7 @@
     width:100%;
  }
 
+ /* Navigation */
  .navbar {
     padding:0%;
  }
@@ -92,10 +94,12 @@
     font-size: 30px;
  }
 
+ /* About Section */
  #about {
     color:var(--secondary-color)
  }
 
+ /* Education section */
 #education {
     background-color: var(--third-color);
 }
@@ -114,6 +118,7 @@
     text-align: right;
 }
 
+/* contact section */
 #contact{
     background-color: var(--third-color);
 }
