@@ -92,6 +92,12 @@
     font-size: 30px;
  }
 
+ 
+
+#education {
+    background-color: var(--third-color);
+}
+
  .card{
     min-height: 90vh;
     padding: 10px;
@@ -104,6 +110,10 @@
 
 #boardwalk{
     text-align: right;
+}
+
+#contact{
+    background-color: var(--third-color);
 }
 
  /* Default (Desktop) */
