@@ -209,6 +209,14 @@ To deploy this to the Github pages you will need to access the projects reposito
    
 
 ### Code
+1. Code for whole website was HTML and used for styling was with Bootstrap and CSS.
+2. Code for the navigation bar was created using [Bootstrap navbar](https://getbootstrap.com/docs/5.3/components/navbar/) This was then edited to change colour and sizing but neded the feature of it being collapsible.
+3. Code for the hero section was used with bootstrap styling to build space around the section also used for grid and responsiveness. CSS for background colour.
+4. Code for the about section was used as a [grid with bootstrap](https://getbootstrap.com/docs/5.3/layout/grid/) along with image alignment.
+5. Code for education was used with bootstrap creating [tables](https://getbootstrap.com/docs/5.3/content/tables/)
+6. Code for education portfolio was used with bootstrap creating [cards](https://getbootstrap.com/docs/5.3/components/card/) With some extra styling with CSS.
+7. Code for Footer/contact section had a form in which has a sent button which links to a bootstrap [modal](https://getbootstrap.com/docs/5.3/components/modal/)
+8. Code for Footer icons, copyright and favicon icon were used with [font awesome](https://fontawesome.com/)
 
 
 
@@ -218,6 +226,7 @@ Definiing wireframes used on google .com (https://github.com/user-attachments/as
 
 
 Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose (https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761)
+
 
 
 
