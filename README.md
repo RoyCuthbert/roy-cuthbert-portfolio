@@ -150,35 +150,45 @@ The project was created using the IDE [VS Code](https://code.visualstudio.com/)c
 Before following the steps to deploy your project, ensure that all your code has been committed and pushed to GitHub.
 
 To deploy this to the Github pages you will need to access the projects repository.
-1.Log into your own Github
-2.From the list of repositories go to roy-cuthbert-portfolio
-3.Then navigate to settings
+1. Log into your own Github
+2. From the list of repositories go to roy-cuthbert-portfolio
+3. Then navigate to settings
 
-![Settings]
+![Settings(https://github.com/user-attachments/assets/7d51db2a-c37d-4ee5-ae17-1c22977a61fd)
+
 
 4. Scroll down to the pages section
 
-![pages]
+![pages](https://github.com/user-attachments/assets/83876903-e58b-4652-9bb1-a8755bc951d9)
+
 
 5. Under main section build and deployment look for branch
 
 6. With a dropdown menu 'select branch' select the main
 
-![Main branch](<img width="257" height="102" alt="image" src="https://github.com/user-attachments/assets/f327fc74-06ac-48ef-a492-e4a5e994c9ad" />
+![Main branch](https://github.com/user-attachments/assets/ed73cb72-3172-4716-b84d-99f6e2b62e2a)
 
 
-7.click save to confirm
 
-![Save](https://github.com/user-attachments/assets/f327fc74-06ac-48ef-a492-e4a5e994c9ad)
+7. Click save to confirm
 
-8.After enabling the save you will need to refresh 
-9.Return to the **git hub page** section and you will see a [github link](https://roycuthbert.github.io/roy-cuthbert-portfolio)
+![Save](https://github.com/user-attachments/assets/b95add59-2e84-4689-b572-6a9f3d05dd8b)
 
-![Live website link]()
+
+8. After enabling the save you will need to refresh 
+9. Return to the **git hub page** section and you will see a [github link](https://roycuthbert.github.io/roy-cuthbert-portfolio)
+
+![Live website link](https://github.com/user-attachments/assets/d1f199e1-5791-4fb0-ac6a-08ba6d4e5869)
+
 
 ### How to run this project locally
 
-1.Using **VS code** 
+1. Using **VS code** i would log in
+2. After this i would download an extension [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+3. This will enable to me to browse the code from Vs code on my chrome browser.
+4. I will need to right click the HTML file which will open options.
+5. I will need to click run on live server.
+6. A new tab will open in chrome with the webpage.
 
 ## Credit
 
@@ -194,3 +204,4 @@ Definiing wireframes used on google .com <img width="418" height="269" alt="imag
 
 
 Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose <img width="585" height="319" alt="image" src="https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761" />
+
