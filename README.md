@@ -193,19 +193,31 @@ To deploy this to the Github pages you will need to access the projects reposito
 5. I will need to click run on live server.
 6. A new tab will open in chrome with the webpage.
 
-## Credit
+## Credits
 
 ### Content
+- Provided all my own content due to being my own porfolio. This text content was provide from some of my CV details.
 
 ### Media
 
-### Code 
+#### Audio
+1. In the hero section at the top was recorded at home through my computer.
+
+#### Images
+1. In the hero section this was the code for the portfolio in the background.
+2. In the about section this was a picture of me going through my local town.
+   
+
+### Code
+
+
 
 ### Acknowledgements
 
-Definiing wireframes used on google .com <img width="418" height="269" alt="image" src="https://github.com/user-attachments/assets/63984b95-69a6-4407-ba9f-b7d68cacd5df" />
+Definiing wireframes used on google .com (https://github.com/user-attachments/assets/63984b95-69a6-4407-ba9f-b7d68cacd5df)
 
 
-Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose <img width="585" height="319" alt="image" src="https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761" />
+Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose (https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761)
+
 
 
