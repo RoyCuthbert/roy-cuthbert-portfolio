@@ -49,6 +49,7 @@
     border-radius: 0%;
  }
 
+ 
 
  /* Header */
  header{
@@ -71,6 +72,20 @@
 
  .navbar a{
     color: var(--primary-color);
+ }
+
+ /* Hero section */
+ #hero {
+    background-color:black ;
+    background-image: url(../images/hero-background-image.png);
+    background-size:cover;
+    font-weight: 800;
+    line-height: 40px;
+ }
+
+ #hero p {
+    font-size: 30px;
+    color:lime;
  }
 
  .card{
