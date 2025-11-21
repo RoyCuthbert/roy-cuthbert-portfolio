@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <header class="mb-2">
+    <header>
         <!-- Bootstrap Navbar helping collapsing the navigation into one simple hamburger -->
-        <nav class="navbar navbar-expand-lg  fixed-top bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Roy Cuthbert</a>
                 <button class="navbar-toggler text-bg-light me-2" type="button" data-bs-toggle="collapse"
@@ -26,15 +26,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link " href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -54,7 +54,7 @@
         </nav>
     </header>
     <!-- Hero -->
-    <section class="container" id="hero">
+    <section class="container my-5" id="hero">
         <section class="row">
             <!-- Col-12 to be used to use whole row and text center to align text-->
             <div class="col-12 text-center">
@@ -63,7 +63,7 @@
                 <!-- mb-4 to be used to give a margin bottom -->
                 <h2 class="my-5 mb-4">Software Engineer</h2>
                 <!-- Paragraph showing the qualities i have and why im looking for work -->
-                <p> Hello i am Roy, I have recently took a decision to change my career after years not being happy in
+                <p class="mb-5"> Hello i am Roy, I have recently took a decision to change my career after years not being happy in
                     my role and what I
                     was doing.<em>I have been recently enrolled in the level 3 Diploma in software engineering for Code
                         Institute and therefore enjoyed the program.</em><b>I consider
@@ -79,16 +79,16 @@
     <main>
         <section id="about" class="container text-center">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mt-4">
                     <!-- Text-center was used to give a alignment -->
                     <h3 class="mt-4">About Roy Cuthbert</h3>
                 </div>
                 <div class="col-12 col-lg-6 p-3">
                     <!-- img-fluid was added to give me more responsiveness on mobile devices -->
-                    <img src="assets/images/pic-of-me.jpg" class="img-fluid" style="max-height:102vh"
+                    <img src="assets/images/pic-of-me.jpg" class="img-fluid" style="max-height:80vh"
                         alt="A picture of me">
                 </div>
-                <div class="col-12 col-lg-6 mt-3 mb-5">
+                <div class="col-12 col-lg-6 mt-3 mb-5" id="about-me">
                     <p>As a student studying development, I am currently joined with code institute starting my
                         developer journey. </br>With a keen interest in the tech industry i am pursuing with the journey
                         and willing to learn new things.
@@ -108,7 +108,7 @@
         </section>
         <section id="education" class="container pb-2 my-5">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <!-- Display-4 to give a bigger font for a eye catching heading -->
                     <h3 class="my-1 text-center display-4">Education</h3>
                 </div>
@@ -116,7 +116,7 @@
         <section id="education-portfolio" class="container">
             <div class="row">
                 <!-- my-3 used to add top and bottom margin to heading -->
-                <div class="col-12 text-center my4">
+                <div class="col-12 text-center mt-5">
                     <!-- Display 6 to highlight the importance of a bigger font heading -->
                     <h3 class="display-6">Education Portfolio</h3>
                 </div>
@@ -155,7 +155,7 @@
     <!-- Footer/ Contact -->
     <!-- Added mt to push footer down to bottom -->
     <footer id="contact" class="container">
-        <div class="row mt-auto text-center">
+        <div class="row mt-5 text-center">
             <h3>Contact Me</h3>
             <p><em>Please feel free to contact me</em> i'm happy that you took your time to look through my
                 <strong>portfolio</strong>
