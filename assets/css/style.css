@@ -16,7 +16,7 @@
 * {
     padding: 0;
     margin:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 
@@ -24,9 +24,10 @@
  body{
     font-family: var(--primary-font);
     min-height:100vh;
-    display:flex;
+    display: flex;
     flex-direction:column;
     color: var(--primary-color);
+    width:100%;
 }
 
  h1{
@@ -47,6 +48,7 @@
  .sharp-corners{
     border-radius: 0%;
  }
+
 
  /* Header */
  header{
@@ -84,7 +86,6 @@
 #boardwalk{
     text-align: right;
 }
-
 
  /* Default (Desktop) */
 textarea {

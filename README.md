@@ -1,4 +1,4 @@
-ï»¿# Roy Cuthbert Portfolio
+ÿþï»¿# Roy Cuthbert Portfolio
 
 This is a personal portfolio for recruiters or fellow enthusiasts to look at what i am all about to recruit or even read or follow what i am working on. This is also a great thing for me to look back on and see how far i have progressed.
 
@@ -37,7 +37,7 @@ This is a personal portfolio for recruiters or fellow enthusiasts to look at wha
     - [Acknowledgements](#acknowledgements)    
 
 ## UX
-The User Experience (UX) is to provide a simple but structured layout to a portfolio for potential recruiters to see. 
+The User Experience (UXis to provide a simple but structured layout to a portfolio for potential recruiters to see. 
 
 ### Project Goals
 1. UX Design
@@ -145,7 +145,7 @@ Found that When using the navigation and getting it to be responsive that needed
 ### Website Performance
 
 ## Deployment
-The project was created using the IDE [VS Code](https://code.visualstudio.com/)commited  with [git control](https://git-scm.com/) using pushed to [Github server](https://github.com/) Using Git version control in terminal with "git push"
+The project was created using the IDE [VS Code](https://code.visualstudio.com/)commited  with [git control](https://git-scm.com/using pushed to [Github server](https://github.com/) Using Git version control in terminal with "git push"
 
 Before following the steps to deploy your project, ensure that all your code has been committed and pushed to GitHub.
 
