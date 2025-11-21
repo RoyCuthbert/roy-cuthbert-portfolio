@@ -10,7 +10,7 @@
     --primary-color:#d1d1d1; 
     --secondary-color:#416a8e;
     --third-color:#7a9fc2;
-    --fourth-color:#3a2620;
+    --fourth-color:lime;
 }
 /* Asterisk wildcard selector to overide default styles add by the browser */
 * {
@@ -81,11 +81,15 @@
     background-size:cover;
     font-weight: 800;
     line-height: 40px;
+    color:var(--fourth-color)
  }
+
+#hero h1,h2{
+    color:var(--fourth-color)
+}
 
  #hero p {
     font-size: 30px;
-    color:lime;
  }
 
  .card{
