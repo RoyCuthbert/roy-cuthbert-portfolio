@@ -44,7 +44,11 @@
     font-family: var(--heading-font);
  }
 
- 
+ .sharp-corners{
+    border-radius: 0%;
+ }
+
+
 
  .card{
     min-height: 90vh;
