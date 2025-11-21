@@ -130,6 +130,9 @@ A wireframe is a basic, blueprint-like visual guide for a website that shows its
 #### Contact
 
 ## Technologies Used 
+1. **HTML5** - The markup language for structure of a website.
+2. **CSS3** - Used for styling making the visual appearance of the website.
+3. **Bootstrap v5.3** - Used for creating responsiveness across all screen sizes, built in features from a framwork libary. More about Bootstrap on the [ Bootstrap webpsite](https://getbootstrap.com/)
 
 ## Testing
 
@@ -154,7 +157,7 @@ To deploy this to the Github pages you will need to access the projects reposito
 2. From the list of repositories go to roy-cuthbert-portfolio
 3. Then navigate to settings
 
-![Settings(https://github.com/user-attachments/assets/7d51db2a-c37d-4ee5-ae17-1c22977a61fd)
+![Settings](https://github.com/user-attachments/assets/7d51db2a-c37d-4ee5-ae17-1c22977a61fd)
 
 
 4. Scroll down to the pages section
@@ -204,4 +207,5 @@ Definiing wireframes used on google .com <img width="418" height="269" alt="imag
 
 
 Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose <img width="585" height="319" alt="image" src="https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761" />
+
 
