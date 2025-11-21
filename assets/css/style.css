@@ -12,6 +12,13 @@
     --third-color:#7a9fc2;
     --fourth-color:#3a2620;
 }
+/* Asterisk wildcard selector to overide default styles add by the browser */
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
 
 /* Global styles */
  body{
