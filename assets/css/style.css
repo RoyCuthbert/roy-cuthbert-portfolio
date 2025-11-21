@@ -7,7 +7,7 @@
 :root{
     --heading-font:'Cormorant-Garamond', sans-serif;
     --primary-font:'Lato', cursive;
-    --primary-color:#aa9581; 
+    --primary-color:#d1d1d1; 
     --secondary-color:#416a8e;
     --third-color:#7a9fc2;
     --fourth-color:#3a2620;
@@ -23,7 +23,11 @@
 /* Global styles */
  body{
     font-family: var(--primary-font);
-  }
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    color: var(--primary-color);
+}
 
  h1{
     font-family:'Playfair-Display',san-serif;
@@ -56,6 +60,8 @@ textarea {
 
 /* For mobile devices */
 @media (max-width: 768px) {
+
+
     textarea {
         width: 95%; /* Wider on small screens */
         height: 150px; /* Adjust height */
