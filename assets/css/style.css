@@ -51,17 +51,19 @@
  /* Header */
  header{
     background-color: var(--secondary-color);
-    width: 100%;
-    padding: 0 1rem;
+    width:100%;
+    padding: 0;
     margin: 0%;
     position: fixed;
     align-items: baseline;
+    justify-content: space-between;
 }
 
  header div{
     background-color: var(--secondary-color);
     margin: 0%;
     padding:0%;
+    width:100%;
  }
 
  .navbar {
@@ -95,12 +97,17 @@ textarea {
 }
 
 /* For mobile devices */
-@media (max-width: 768px) {
-
+@media screen and(max-width: 768px) {
 
     textarea {
         width: 95%; /* Wider on small screens */
         height: 150px; /* Adjust height */
         padding: 10px;
+    }
+}
+/* For Tablets and Larger */
+@media screen and(min-width:768) {
+    .navbar{
+        margin-right:3rem;
     }
 }
