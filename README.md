@@ -222,10 +222,11 @@ To deploy this to the Github pages you will need to access the projects reposito
 
 ### Acknowledgements
 
-Definiing wireframes used on google .com (https://github.com/user-attachments/assets/63984b95-69a6-4407-ba9f-b7d68cacd5df)
+1. Definiing wireframes used on google .com [Wireframe meaning](https://github.com/user-attachments/assets/63984b95-69a6-4407-ba9f-b7d68cacd5df)
 
 
-Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose (https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761)
+2. Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose [Font choice](https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761)
+
 
 
 
