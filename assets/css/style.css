@@ -92,7 +92,9 @@
     font-size: 30px;
  }
 
- 
+ #about {
+    color:var(--secondary-color)
+ }
 
 #education {
     background-color: var(--third-color);
