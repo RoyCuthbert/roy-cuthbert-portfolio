@@ -227,6 +227,10 @@ To deploy this to the Github pages you will need to access the projects reposito
 
 2. Used chat gpt regarding font choices in my portfolio asking for 3 different fonts to choose [Font choice](https://github.com/user-attachments/assets/a7a78ede-a492-4117-8558-3ccc7479f761)
 
+3. Used stack overflow to ask how to open a link for to send an [email](https://github.com/user-attachments/assets/23cb5a35-a04d-457d-860e-29c600fb9f28")
+
+
+
 
 
 
