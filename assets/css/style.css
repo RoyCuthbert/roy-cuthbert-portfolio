@@ -44,6 +44,8 @@
     font-family: var(--heading-font);
  }
 
+ 
+
  .card{
     min-height: 90vh;
     padding: 10px;
