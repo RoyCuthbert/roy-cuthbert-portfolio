@@ -78,8 +78,9 @@
 
  /* Hero section */
  #hero {
-    background-color:black ;
-    background-image: url(../images/hero-background-image.png);
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+        url(../images/hero-background-image.png);
     background-size:cover;
     font-weight: 800;
     line-height: 40px;
