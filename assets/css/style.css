@@ -22,11 +22,11 @@
 
 /* Global styles */
  body{
-    font-family: var(--primary-font);
+    font-family:var(--primary-font);
     min-height:100vh;
     display: flex;
     flex-direction:column;
-    color: var(--primary-color);
+    color:var(--primary-color);
     width:100%;
 }
 
@@ -43,7 +43,7 @@
 
 
  h2,h3,h4,h5{
-    font-family: var(--heading-font);
+    font-family:var(--heading-font);
  }
 
  .sharp-corners{
@@ -132,17 +132,16 @@ textarea {
 }
 
 /* For mobile devices */
-@media screen and(max-width: 768px) {
-
-    textarea {
-        width: 95%; /* Wider on small screens */
-        height: 150px; /* Adjust height */
-        padding: 10px;
+@media screen and (max-width: 768px) {
+textarea {
+    width: 95%; /* Wider on small screens */
+    height: 150px; /* Adjust height */
+    padding: 10px;
     }
 }
 /* For Tablets and Larger */
-@media screen and(min-width: 768px) {
-    .navbar{
-        margin-right:3rem;
+@media screen and (min-width: 768px) {
+.navbar{
+    margin-right:3rem;
     }
 }
