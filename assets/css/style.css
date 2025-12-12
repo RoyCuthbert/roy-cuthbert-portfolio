@@ -78,7 +78,8 @@
 
  /* Hero section */
  #hero {
-    background: 
+    background:
+         /*Added a linear gradinet to make the colour of text stand out but still having same image of the code in background  */
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
         url(../images/hero-background-image.png);
     background-size:cover;
