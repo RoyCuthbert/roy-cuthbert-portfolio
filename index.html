@@ -56,12 +56,11 @@
         </nav>
     </header>
     <!-- Hero -->
-    <section class="container-fluid my-5" id="hero">
+    <div class="container-fluid my-5" id="hero">
         <section class="row">
             <!-- Col-12 to be used to use whole row and text center to align text-->
             <div class="col-12 text-center">
-                <!-- my-5 used to give margin to both top and bottom -->
-                <h1 class="my-4">Roy Cuthbert</h1>
+                <h1>Roy Cuthbert</h1>
                 <!-- mb-4 to be used to give a margin bottom -->
                 <h2 class="my-4 mb-4">Software Engineer</h2>
                 <!-- Paragraph showing the qualities i have and why im looking for work -->
@@ -78,7 +77,7 @@
                 <audio src="assets/audio/roy-cuthbert-portfolio-audio.m4a" controls></audio>
             </div>
         </section>
-    </section>
+    </div>
     <!-- Main -->
     <main>
         <!-- About section -->
@@ -95,15 +94,20 @@
                 </div>
                 <div class="col-12 col-lg-6 mt-3 mb-5" id="about-me">
                     <p>As a student studying development, I am currently joined with code institute starting my
-                        developer journey. </br>With a keen interest in the tech industry i am pursuing with the journey
+                        developer journey. 
+                        <br>
+                        With a keen interest in the tech industry i am pursuing with the journey
                         and willing to learn new things.
-                        </br> I am on 2 courses in which i feel will give me knowledge on how each work,<b>I am doing
+                        <br> 
+                        I am on 2 courses in which i feel will give me knowledge on how each work,<b>I am doing
                             cyber security lv2 and also doing a lv5 Web development</b></p>
                     <p>My cyber security course is a introduction into cyber showing me terminologys of this</p>
                     <p>My web development is an advanced course compared to the <em>Level 3 software course</em> which i
-                        did before.<br>
+                        did before.
+                        <br>
                         This will give me the knowledge to put into practice <strong>HTML,CSS and Javascript</strong>
-                        with framework libaries like <strong>bootstrap and JQuery</strong>.</br>
+                        with framework libaries like <strong>bootstrap and JQuery</strong>.
+                        <br>
                         We will be using <strong>API's, Python, Agile developments</strong> and Frameworks like
                         <strong>Django</strong>.</p>
                     <p>With all this above i'm hoping i can make an impact on my journey and be able to join a team that
@@ -198,6 +202,7 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
         </section>
         <!-- Education Portfolio -->
         <!-- Added card titles to make easier navigation to projects that i have worked on -->
@@ -238,7 +243,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>
@@ -249,13 +253,14 @@
             <h3>Contact Me</h3>
             <p><em>Please feel free to contact me</em> i'm happy that you took your time to look through my
                 <strong>portfolio</strong>
-                if you could find the time to look through my links below if anything of interest </br><strong>please
-                    email me or write a message below</strong></p>
+                if you could find the time to look through my links below if anything of interest 
+                <br>
+                <strong>please email me or write a message below</strong></p>
         </div>
         <div class="row text-center">
             <!-- Adding a form for people to fill out in order to reach me -->
             <!-- Adding sharp-corners to each label to give a box with no round edges -->
-            <form action="" method="POST">
+            <form method="POST">
                 <label for="name-field">Name</label>
                 <input id="name-field" type="text" name="full_name" placeholder="Your name" class="sharp-corners"
                     required>
@@ -300,14 +305,16 @@
                 </div>
             </div>
             <div>
-                <figcaption class="col-12 d-flex justify-content-center"><i
+                <figure class="col-12 d-flex justify-content-center"><i
                         class="fa-regular fa-copyright"></i><strong>By Roy
-                        Cuthbert</strong></figcaption>
+                        Cuthbert</strong>
+                </figure>
             </div>
+        </div>
     </footer>
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        aria-label="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
