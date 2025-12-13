@@ -133,15 +133,12 @@ textarea {
 
 /* For mobile devices */
 @media screen and (max-width: 768px) {
-textarea {
+   .navbar-toggler{
+      margin-right:1rem;
+   }
+   textarea {
     width: 95%; /* Wider on small screens */
     height: 150px; /* Adjust height */
     padding: 10px;
-    }
-}
-/* For Tablets and Larger */
-@media screen and (min-width: 768px) {
-.navbar{
-    margin-right:3rem;
-    }
+   }
 }
