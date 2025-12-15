@@ -260,7 +260,7 @@
         <div class="row text-center">
             <!-- Adding a form for people to fill out in order to reach me -->
             <!-- Adding sharp-corners to each label to give a box with no round edges -->
-            <form method="POST">
+            <form method="GET">
                 <label for="name-field">Name</label>
                 <input id="name-field" type="text" name="full_name" placeholder="Your name" class="sharp-corners"
                     required>
@@ -269,7 +269,7 @@
                     required>
                 <br>
                 <label for="page-interest">What brings you to my page?</label>
-                <input id="page-interest" list="interest" class="sharp-corners" name="page-interest">
+                <input id="page-interest" list="interest" class="sharp-corners" name="page-interest" required>
                 <datalist id="interest" class="sharp-corners">
                     <option value="Recruiter">
                     <option value="Colleague">
@@ -279,16 +279,15 @@
                 <div>
                     <label for="feedback">Please let me know if interested in anything you seen below</label>
                     <br>
-                    <textarea id="feedback" rows="4" cols="87" name="feedback" class="sharp-corners"></textarea>
+                    <textarea id="feedback" rows="4" cols="87" name="feedback" class="sharp-corners" required></textarea>
                 </div>
                 <!-- Adding form buttons here -->
                 <!-- Button trigger modal -->
-                <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                    aria-label="Submit form">
+                <button class="btn btn-primary" aria-label="Submit form">
                     Send it!
                 </button>
-                <input type="reset" class="btn btn-light" aria-label="Clear form" value="Reset form">
-
+                <input type="reset" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    aria-label="Clear form" value="Reset form">
 
             </form>
             <div class="row my-4">
@@ -319,12 +318,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Thank you for the message!</h1>
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">You have now cleared your form!</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Thank you for filling out the form unfortunately this is currently in working progress for me to
-                    recieve i appreciate it please use links below
+                    Thank you for taking your time to fill the form unfortunately if this message has come up this is because your form has been cleared and not sent!
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -339,5 +337,4 @@
     <!-- Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/aa80f5b7e4.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
